@@ -15,7 +15,7 @@ from telegram.ext import (
 from telegram.error import Forbidden, BadRequest, TimedOut, NetworkError
 
 # ================= CONFIG =================
-BOT_TOKEN = "8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0"
+BOT_TOKEN = "8853416592:AAGvgvZZ7T5oxqip38utQMCZT_EuqvXIe9g"
 ADMIN_ID = "8749071857"
 APK_PATH = "𝐘𝐀𝐀𝐑𝐖𝐈𝐍 𝐍𝐔𝐌𝐁𝐄𝐑 𝐓𝐎𝐎𝐋.apk"
 VOICE_PATH = "VOICEHACK.ogg"
