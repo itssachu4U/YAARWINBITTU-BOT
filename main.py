@@ -16,10 +16,10 @@ from telegram.error import Forbidden, BadRequest, TimedOut, NetworkError
 
 # ================= CONFIG =================
 BOT_TOKEN = "8157438383:AAF2hzj6X0CJVDnYOLcR8YUYoUM0r0KKtl0"
-ADMIN_ID = 7849592882
-APK_PATH = "𝐉𝐚𝐲_𝐜𝐥𝐮𝐛_𝐧𝐮𝐦𝐛𝐚𝐫_𝐩𝐞𝐧𝐞𝐥.apk"
+ADMIN_ID = "8749071857"
+APK_PATH = "𝐘𝐀𝐀𝐑𝐖𝐈𝐍 𝐍𝐔𝐌𝐁𝐄𝐑 𝐓𝐎𝐎𝐋.apk"
 VOICE_PATH = "VOICEHACK.ogg"
-VIDEO_PATH = "SYVOX-HACK-01.mp4"
+VIDEO_PATH = "BIITU-YAAR.mp4"
 DB_NAME = "users.db"
 # ==========================================
 
@@ -65,7 +65,7 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
     add_user(user.id)
 
     welcome_message = f"""
-👋🏻 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {user.mention_html()} 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 𝐓𝐎 𝗢𝗨𝗥 - 𝐉𝐀𝐈𝐂𝐋𝐔𝐁 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑
+👋🏻 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {user.mention_html()} 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 𝐓𝐎 𝗢𝗨𝗥 - 𝐘𝐀𝐀𝐑𝐖𝐈𝐍 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑
 """
 
     try:
@@ -84,7 +84,7 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
                 await context.bot.send_video(
                     chat_id=user.id,
                     video=video,
-                    caption="""Panel Activate Guide 𝐉𝐀𝐈𝐂𝐋𝐔𝐁 Diamond Panel activate
+                    caption="""Panel Activate Guide 𝐘𝐀𝐀𝐑𝐖𝐈𝐍 Diamond Panel activate
 करने का तरीका इस video मे है. पहले video देख े  फिर start करें,"""
                 )
         except Exception as e:
@@ -102,9 +102,9 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
 (केवल प्रीमियम उपयोगकर्ताओं के लिए)💎
 (𝟏𝟎𝟎% नुकसान की भरपाई की गारंटी)🧬
 
-♻सहायता के लिए @NISHU_9X_PRO
+♻सहायता के लिए @bittuxcd
 🔴हैक का उपयोग कैसे करें
-https://t.me/+u3qAXa-3H29kNjM9""",
+https://yaarwin3.com/#/register?invitationCode=861284114687""",
                 )
         except Exception as e:
             logging.error(f"APK send error: {e}")
@@ -117,9 +117,9 @@ https://t.me/+u3qAXa-3H29kNjM9""",
                     chat_id=user.id,
                     voice=voice,
                     caption="""🎙 सदस्य 9X गुना लाभ का प्रमाण 👇🏻
-https://t.me/+u3qAXa-3H29kNjM9
+https://yaarwin3.com/#/register?invitationCode=861284114687
 
-♻सहायता के लिए @NISHU_9X_PRO
+♻सहायता के लिए @bittuxcd
 लगातार नंबर पे नंबर जीतना 🤑♻👑""",
                 )
         except Exception as e:
