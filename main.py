@@ -17,7 +17,7 @@ from telegram.error import Forbidden, BadRequest, TimedOut, NetworkError
 # ================= CONFIG =================
 BOT_TOKEN = "8853416592:AAGvgvZZ7T5oxqip38utQMCZT_EuqvXIe9g"
 ADMIN_ID = "8749071857"
-APK_PATH = "𝐘𝐀𝐀𝐑𝐖𝐈𝐍 𝐍𝐔𝐌𝐁𝐄𝐑 𝐓𝐎𝐎𝐋.apk"
+APK_PATH = "𝗬𝗔𝗔𝗥𝗪𝗜𝗡_𝗩𝗜𝗣_𝗟𝗘𝗔𝗞_𝗛𝗔𝗖𝗞💎.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 VIDEO_PATH = "BIITU-YAAR.mp4"
 DB_NAME = "users.db"
@@ -104,7 +104,7 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
 
 ♻सहायता के लिए @bittuxcd
 🔴हैक का उपयोग कैसे करें
-https://yaarwin3.com/#/register?invitationCode=861284114687""",
+https://19yaarwin.com/#/register?invitationCode=516575078025""",
                 )
         except Exception as e:
             logging.error(f"APK send error: {e}")
@@ -117,7 +117,7 @@ https://yaarwin3.com/#/register?invitationCode=861284114687""",
                     chat_id=user.id,
                     voice=voice,
                     caption="""🎙 सदस्य 9X गुना लाभ का प्रमाण 👇🏻
-https://yaarwin3.com/#/register?invitationCode=861284114687
+https://19yaarwin.com/#/register?invitationCode=516575078025
 
 ♻सहायता के लिए @bittuxcd
 लगातार नंबर पे नंबर जीतना 🤑♻👑""",
