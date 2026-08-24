@@ -104,7 +104,7 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
 
 ♻सहायता के लिए @bittuxcd
 🔴हैक का उपयोग कैसे करें
-https://19yaarwin.com/#/register?invitationCode=516575078025""",
+https://yaarwin3.com/#/register?invitationCode=861284114687""",
                 )
         except Exception as e:
             logging.error(f"APK send error: {e}")
@@ -117,7 +117,7 @@ https://19yaarwin.com/#/register?invitationCode=516575078025""",
                     chat_id=user.id,
                     voice=voice,
                     caption="""🎙 सदस्य 9X गुना लाभ का प्रमाण 👇🏻
-https://19yaarwin.com/#/register?invitationCode=516575078025
+https://yaarwin3.com/#/register?invitationCode=861284114687
 
 ♻सहायता के लिए @bittuxcd
 लगातार नंबर पे नंबर जीतना 🤑♻👑""",
