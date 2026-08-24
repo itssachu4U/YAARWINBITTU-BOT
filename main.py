@@ -17,7 +17,7 @@ from telegram.error import Forbidden, BadRequest, TimedOut, NetworkError
 # ================= CONFIG =================
 BOT_TOKEN = "8853416592:AAGvgvZZ7T5oxqip38utQMCZT_EuqvXIe9g"
 ADMIN_ID = "8749071857"
-APK_PATH = "𝗬𝗔𝗔𝗥𝗪𝗜𝗡_𝗩𝗜𝗣_𝗟𝗘𝗔𝗞_𝗛𝗔𝗖𝗞💎.apk"
+APK_PATH = "𝗬𝗔𝗔𝗥𝗪𝗜𝗡 𝗦𝗨𝗣𝗘𝗥 𝗩𝗜𝗣💎.apk"
 VOICE_PATH = "VOICEHACK.ogg"
 VIDEO_PATH = "BIITU-YAAR.mp4"
 DB_NAME = "users.db"
